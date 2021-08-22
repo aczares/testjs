@@ -33,7 +33,7 @@ const App = () => {
   return (
     <div>
       <h1>The number is currently: {num}</h1>
-      <button onClick={clickHandler}>Increase</button>
+      <button onClick={() => clickHandler(num)}>Increase</button>
     </div>
   )
 };
