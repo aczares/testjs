@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { useState } from 'React';
+import { useState } from 'react';
 import './App.css';
 import { div } from 'prelude-ls';
 
